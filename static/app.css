@@ -1,0 +1,115 @@
+body {
+    font-size: 10%;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 23em;
+    width: 100%;
+    height: 20px;
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    width: 900px;
+    min-width: 900px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+label {
+    font-size: 11em;
+    margin-right: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+input {
+    height: 20px;
+    margin-right: 20px;
+}
+
+.form-container {
+    margin: 0px auto;
+    margin-bottom: 20px;
+    background-color: #ffaa;
+    width: 900px;
+    min-width: 900px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 0px 100px 10px;
+}
+
+.response-container {
+    margin: 0px auto;
+    width: 900px;
+    min-width: 900px;
+    height: 200px;
+    display: flex;
+}
+
+.success {
+    display: block;
+    width: 400px;
+    height: 40px;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 2px 3px 2px grey;
+    border-radius: 10px;
+    padding: 20px 20px;
+    color: black;
+    background-color: green;
+    font-size: 13em;
+}
+
+.error {
+    display: block;
+    width: 400px;
+    height: 40px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 2px 3px 2px grey;
+    border-radius: 10px;
+    padding: 20px 20px;
+    color: black;
+    background-color: red;
+    font-size: 13em;
+}
+
+.currency-list {
+    display: block;
+    width: 50%;
+    height: 100px;
+    line-height: 100px;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-size: 15em;
+    text-align: center;
+    border: 2px solid green;
+    color: green;
+    box-shadow: 0px 1px 0 1px;
+}
+
+.messages {
+    display: block;
+}
+
+button{
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: lightgreen;
+}
